@@ -1,0 +1,6 @@
+{
+  "mosquitto": {
+    "port": 1082,
+    "broker": "mqtt://localhost"
+  }
+}
