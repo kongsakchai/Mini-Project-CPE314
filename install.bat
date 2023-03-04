@@ -1,5 +1,14 @@
+@echo off
+
 cd client
-npm install
+call npm install
 
 cd ../server
-npm install
+call npm install
+
+echo:
+echo Install complete
+
+pause > nul
+
+cmd

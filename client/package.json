@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "ts-node src/client.ts"
+    "dev": "ts-node src/client.ts",
+    "start": "tsc & node dist/client.js"
   },
   "author": "",
   "license": "ISC",
