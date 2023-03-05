@@ -8,6 +8,7 @@ const handleError = (err: Error | undefined) => err && console.error(err);
 const client = mqtt.connect({
   port: config.mosquitto.port,
   path: config.mosquitto.broker,
+  clientId: config.mosquitto.id,
 });
 
 client.on("connect", packet => {

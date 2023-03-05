@@ -7,8 +7,8 @@
   "database": {
     "host": "localhost",
     "port": 5432,
-    "user": "postgres",
-    "password": "kongcontrol",
+    "user": "",
+    "password": "",
     "database": "mosquitto"
   }
 }

@@ -39,6 +39,7 @@ const handleEnd = async (payload: Buffer) => {
 const client = mqtt.connect({
   port: config.mosquitto.port,
   path: config.mosquitto.broker,
+  clientId: "Server_" + config.mosquitto.id,
 });
 
 client.on("connect", packet => {
