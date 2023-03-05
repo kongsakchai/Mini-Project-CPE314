@@ -66,7 +66,7 @@ Mini Project วิชา Compute Networks - CPE314
 
 ### install.bat
 
-สำหรับติดตั้ง Package ของ Client และ Server พร้อมกัน
+สำหรับติดตั้ง Package ของ Client และ Server
 
 ```
 @echo off
@@ -87,7 +87,7 @@ cmd
 
 ### start-client.bat
 
-สำหรับดเปิดตัว client
+สำหรับเปิดตัว client
 
 ```
 @echo off
@@ -103,7 +103,7 @@ cmd
 
 ### start-server.bat
 
-สำหรับดเปิดตัว Server
+สำหรับเปิดตัว Server
 
 ```
 @echo off
@@ -149,8 +149,8 @@ cmd
   "database": {
     "host": "localhost",
     "port": 5432,
-    "user": "postgres",
-    "password": "kongcontrol",
+    "user": "",
+    "password": "",
     "database": "mosquitto"
   }
 }
